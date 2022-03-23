@@ -48,6 +48,8 @@ gem "bootsnap", require: false
 # Use Sass to process CSS
 # gem "sassc-rails"
 
+gem 'devise', branch: 'rails_7', github: 'DavidColby/devise'
+
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 
@@ -67,5 +69,6 @@ group :development do
   # gem "spring"
 end
 
-
 gem "stimulus_reflex", "= 3.5.0.pre8"
+
+gem "inline_svg", "~> 1.8"
